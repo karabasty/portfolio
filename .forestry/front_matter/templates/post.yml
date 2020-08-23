@@ -18,3 +18,5 @@ fields:
       format: markdown
   label: Cuerpo
   description: Cuerpo del post
+pages:
+- content/trabajos/ya-tu-sae.md
