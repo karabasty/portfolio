@@ -18,5 +18,3 @@ fields:
       format: markdown
   label: Cuerpo
   description: Cuerpo del post
-pages:
-- trabajos/esto-va-marchando.md
