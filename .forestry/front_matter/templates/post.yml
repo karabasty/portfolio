@@ -8,3 +8,13 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: cuerpo
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Cuerpo
+  description: Cuerpo del post
