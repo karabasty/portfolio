@@ -19,4 +19,5 @@ fields:
   label: Cuerpo
   description: Cuerpo del post
 pages:
+- content/trabajos/pollos.md
 - content/trabajos/ya-tu-sae.md
