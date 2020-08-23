@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: trabajos
+  path: content/trabajos
   label: Trabajos
   create: documents
   match: "**/*"
