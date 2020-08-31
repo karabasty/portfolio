@@ -18,6 +18,13 @@ fields:
       format: markdown
   label: Cuerpo
   description: Cuerpo del post
+- name: imagen
+  type: file
+  config:
+    maxSize: 4
+  label: Imagen
+  description: La foto del trabajo que quieres subir, moderfaquer.
+  default: "/4n1zolknzpd31.jpg"
 pages:
 - content/trabajos/pollos.md
 - content/trabajos/ya-tu-sae.md
