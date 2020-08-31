@@ -24,7 +24,7 @@
   }
 
   .masonry {
-    /* Masonry container */
+     
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
@@ -91,23 +91,46 @@
 <html>
 
 <body>
-  {{ range .Data.Pages }}
-  <h1><a href={{ .Permalink }}>{{ .Title }}</a></h1>
-  {{ end }}
+  
+  <h1><a href=https://www.karabasty.com/trabajos/boomb/>BoomBox</a></h1>
+  
+  <h1><a href=https://www.karabasty.com/trabajos/my-second-trabajo/>My Second Trabajo</a></h1>
+  
+  <h1><a href=https://www.karabasty.com/trabajos/my-first-trabajo/>My First Trabajo</a></h1>
+  
+  <h1><a href=https://www.karabasty.com/trabajos/ya-tu-sae/>Ya tu sae</a></h1>
+  
+  <h1><a href=https://www.karabasty.com/trabajos/pollos/>Pollos</a></h1>
+  
 
 
 
   <h1>Responsive Masonry Grid</h1>
   <p>A pure CSS-only responsive masonry.</p>
   <div class="masonry">
-    {{ range .Data.Pages }}
+    
     <div class="item">
-      <img src="{{ .Params.imagen | relURL }}">
-      <!-- <img src="http://www.pixeden.com/media/k2/galleries/468/001-business-card-clip-brand-mock-up-vol-20-psd.jpg"> -->
+      <img src="http://www.pixeden.com/media/k2/galleries/468/001-business-card-clip-brand-mock-up-vol-20-psd.jpg">
     </div>
-    {{ end}}
+    
+    <div class="item">
+      <img src="http://www.pixeden.com/media/k2/galleries/468/001-business-card-clip-brand-mock-up-vol-20-psd.jpg">
+    </div>
+    
+    <div class="item">
+      <img src="http://www.pixeden.com/media/k2/galleries/468/001-business-card-clip-brand-mock-up-vol-20-psd.jpg">
+    </div>
+    
+    <div class="item">
+      <img src="http://www.pixeden.com/media/k2/galleries/468/001-business-card-clip-brand-mock-up-vol-20-psd.jpg">
+    </div>
+    
+    <div class="item">
+      <img src="http://www.pixeden.com/media/k2/galleries/468/001-business-card-clip-brand-mock-up-vol-20-psd.jpg">
+    </div>
+    
 
-    <!-- 
+
 
 
     <div class="item">
@@ -158,7 +181,7 @@
       <img
         src="http://www.pixeden.com/media/k2/galleries/640/001-business-card-cardboard-mockup-presentation-wall-free-psd.jpg">
     </div>
- -->
+
 
 
 

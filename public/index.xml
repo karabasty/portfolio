@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kool Basty Portfolio</title>
+    <link>https://www.karabasty.com/</link>
+    <description>Recent content on Kool Basty Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 31 Aug 2020 12:05:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.karabasty.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>BoomBox</title>
+      <link>https://www.karabasty.com/trabajos/boomb/</link>
+      <pubDate>Mon, 31 Aug 2020 12:05:00 +0000</pubDate>
+      
+      <guid>https://www.karabasty.com/trabajos/boomb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My Second Trabajo</title>
+      <link>https://www.karabasty.com/trabajos/my-second-trabajo/</link>
+      <pubDate>Sun, 23 Aug 2020 11:45:36 +0100</pubDate>
+      
+      <guid>https://www.karabasty.com/trabajos/my-second-trabajo/</guid>
+      <description>So this is a trabajo Dolor proident excepteur eiusmod sint dolor nisi officia ea adipisicing velit occaecat laboris. Ullamco occaecat consequat anim ea esse quis. Ad eu nostrud ex dolor tempor mollit nulla veniam est sint ut.
+Aute id velit ut culpa duis ut enim. Nisi id est laborum sint ad deserunt sit sunt dolore consequat. Fugiat exercitation officia consequat enim ut deserunt enim ex proident irure aliqua ea nisi. Eiusmod esse velit exercitation aute magna irure do minim deserunt ullamco non.</description>
+    </item>
+    
+    <item>
+      <title>My First Trabajo</title>
+      <link>https://www.karabasty.com/trabajos/my-first-trabajo/</link>
+      <pubDate>Sun, 23 Aug 2020 11:17:34 +0100</pubDate>
+      
+      <guid>https://www.karabasty.com/trabajos/my-first-trabajo/</guid>
+      <description>Dolor proident excepteur eiusmod sint dolor nisi officia ea adipisicing velit occaecat laboris. Ullamco occaecat consequat anim ea esse quis. Ad eu nostrud ex dolor tempor mollit nulla veniam est sint ut.
+Aute id velit ut culpa duis ut enim. Nisi id est laborum sint ad deserunt sit sunt dolore consequat. Fugiat exercitation officia consequat enim ut deserunt enim ex proident irure aliqua ea nisi. Eiusmod esse velit exercitation aute magna irure do minim deserunt ullamco non.</description>
+    </item>
+    
+    <item>
+      <title>Ya tu sae</title>
+      <link>https://www.karabasty.com/trabajos/ya-tu-sae/</link>
+      <pubDate>Sat, 22 Aug 2020 23:00:00 +0000</pubDate>
+      
+      <guid>https://www.karabasty.com/trabajos/ya-tu-sae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pollos</title>
+      <link>https://www.karabasty.com/trabajos/pollos/</link>
+      <pubDate>Sat, 22 Aug 2020 22:00:00 +0000</pubDate>
+      
+      <guid>https://www.karabasty.com/trabajos/pollos/</guid>
+      <description>Dolor proident excepteur eiusmod sint dolor nisi officia ea adipisicing velit occaecat laboris. Ullamco occaecat consequat anim ea esse quis. Ad eu nostrud ex dolor tempor mollit nulla veniam est sint ut.
+Aute id velit ut culpa duis ut enim. Nisi id est laborum sint ad deserunt sit sunt dolore consequat. Fugiat exercitation officia consequat enim ut deserunt enim ex proident irure aliqua ea nisi. Eiusmod esse velit exercitation aute magna irure do minim deserunt ullamco non.</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://www.karabasty.com/about/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.karabasty.com/about/</guid>
+      <description>about me Hi there, you just reached my blog.</description>
+    </item>
+    
+  </channel>
+</rss>
