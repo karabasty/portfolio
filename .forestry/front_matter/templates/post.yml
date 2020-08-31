@@ -25,8 +25,3 @@ fields:
   label: Imagen
   description: La foto del trabajo que quieres subir, moderfaquer.
   default: "/4n1zolknzpd31.jpg"
-pages:
-- content/trabajos/boomb.md
-- content/trabajos/my-second-trabajo.md
-- content/trabajos/pollos.md
-- content/trabajos/ya-tu-sae.md
