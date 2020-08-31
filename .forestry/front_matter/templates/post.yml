@@ -27,5 +27,6 @@ fields:
   default: "/4n1zolknzpd31.jpg"
 pages:
 - content/trabajos/boomb.md
+- content/trabajos/my-second-trabajo.md
 - content/trabajos/pollos.md
 - content/trabajos/ya-tu-sae.md
