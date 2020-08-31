@@ -1,4 +1,6 @@
 {{ partial "header.html"  }}
+<!-- Params.imagen is the name of the field given in forestry -->
+<img src="{{ .Params.imagen | relURL }}">
 
 <h1>{{ .Title }}</h1>
 <hr>
