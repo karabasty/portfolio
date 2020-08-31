@@ -97,12 +97,10 @@
 
 
 
-  <h1>Responsive Masonry Grid</h1>
-  <p>A pure CSS-only responsive masonry.</p>
   <div class="masonry">
     {{ range .Data.Pages }}
     <div class="item">
-      <img src="{{ .Params.imagen | relURL }}">
+      <img src="https://portfolio-basty.s3.eu-west-2.amazonaws.com{{ .Params.imagen }}">
       <!-- <img src="http://www.pixeden.com/media/k2/galleries/468/001-business-card-clip-brand-mock-up-vol-20-psd.jpg"> -->
     </div>
     {{ end}}
