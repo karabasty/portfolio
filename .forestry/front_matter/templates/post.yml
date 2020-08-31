@@ -26,6 +26,7 @@ fields:
   description: La foto del trabajo que quieres subir, moderfaquer.
   default: "/4n1zolknzpd31.jpg"
 pages:
+- content/trabajos/some.md
 - content/trabajos/trabajo-1.md
 - content/trabajos/trabajo-2.md
 - content/trabajos/trabajo-3.md
