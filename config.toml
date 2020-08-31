@@ -1,4 +1,4 @@
-baseURL = "https://www.karabasty.com/"
-languageCode = "en-us"
-title = "Kool Basty Portfolio"
-theme = "ananke"
+ baseURL = "https://www.karabasty.com/"
+ languageCode = "en-us"
+ title = "Kool Basty Portfolio"
+ theme = "karabasty"
