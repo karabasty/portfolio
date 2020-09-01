@@ -24,7 +24,7 @@ fields:
     maxSize: 4
   label: Imagen
   description: La foto del trabajo que quieres subir, moderfaquer.
-  default: "/4n1zolknzpd31.jpg"
+  default: ''
 pages:
 - content/trabajos/some.md
 - content/trabajos/trabajo-1.md
