@@ -1,7 +1,7 @@
  baseURL = "https://www.karabasty.com/"
  languageCode = "en-us"
  title = "Portfolio"
- theme = "karabasty"
+ theme = "simple-theme-dark"
  #theme = "ananke"
 
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
