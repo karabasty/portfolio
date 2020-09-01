@@ -1,8 +1,8 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
-webhook_url: 
+admin_path: ''
+webhook_url: https://hookb.in/mZPrjMaODxSeqq710p6g
 sections:
 - type: directory
   path: content/trabajos
