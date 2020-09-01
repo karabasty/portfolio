@@ -1,0 +1,3 @@
+{{ range where .Site.RegularPages "Type" "page" }}
+<a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ end}}

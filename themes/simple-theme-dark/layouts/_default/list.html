@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
+{{ define "main" }}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Karabasty | {{ .Site.Title }}</title>
-</head>
-
-<body>
-
-</body>
-
-</html>
+<h1>{{ .Title }}</h1>
+<hr>
+<p>Check out our works!</p>
+{{ range where .Site.Pages "Type" "trabajos" }}
+<a href="{{ .Permalink }}">{{ .Title }}</a>
+<ul>
+  <li><img src="https://portfolio-basty.s3.eu-west-2.amazonaws.com{{ .Params.imagen }}" width="200"
+      height="200"></a>{{ .Params.imagen }}
+  </li>
+  <li>{{ .Params.cuerpo }}</li>
+</ul>
+{{ end }}
+{{ end }}
