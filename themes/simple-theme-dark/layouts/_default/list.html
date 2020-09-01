@@ -1,15 +1,15 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-<hr>
-<p>Check out our works!</p>
-{{ range where .Site.Pages "Type" "trabajos" }}
-<a href="{{ .Permalink }}">{{ .Title }}</a>
-<ul>
-  <li><img src="https://portfolio-basty.s3.eu-west-2.amazonaws.com{{ .Params.imagen }}" width="200"
-      height="200"></a>{{ .Params.imagen }}
-  </li>
-  <li>{{ .Params.cuerpo }}</li>
-</ul>
-{{ end }}
+<div class="masonry">
+  {{ range where .Site.Pages "Type" "trabajos" }}
+  <div class="item">
+    <img data-title="{{ .Params.title }}" data-cuerpo="{{ .Params.cuerpo }}"
+      src="https://portfolio-basty.s3.eu-west-2.amazonaws.com{{ .Params.imagen }}"></a>
+  </div>
+  {{ end }}
+</div>
+
+<!-- PUT THIS IN STYLES AND ALL THAT 
+watch?v=NKLwuZIkReg 2:50 -->
+
 {{ end }}
