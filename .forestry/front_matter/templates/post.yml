@@ -26,8 +26,11 @@ fields:
   description: La foto del trabajo que quieres subir, moderfaquer.
   default: ''
 pages:
-- content/trabajos/some.md
 - content/trabajos/trabajo-1.md
+- content/trabajos/trabajo-10.md
+- content/trabajos/trabajo-11.md
+- content/trabajos/trabajo-12.md
+- content/trabajos/trabajo-13.md
 - content/trabajos/trabajo-2.md
 - content/trabajos/trabajo-3.md
 - content/trabajos/trabajo-4.md
