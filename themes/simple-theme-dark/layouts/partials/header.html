@@ -1,3 +1,18 @@
-<!-- {{ range where .Site.RegularPages "Type" "page" }}
-<a href="{{ .Permalink }}">{{ .Title }}</a>
-{{ end}} -->
+<nav class="navbar-is-fixed-top is-transparent">
+  <div class="container">
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="/">
+          <img src="/img/logo.png" width="122" height="122" alt="KaraBasty">
+        </a>
+      </div>
+      <div class="navbar-end">
+        {{ range where .Site.RegularPages "Type" "page"}}
+        <a href="{{ .Permalink }}" class="navbar-item">
+          {{ .Title }}
+        </a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</nav>

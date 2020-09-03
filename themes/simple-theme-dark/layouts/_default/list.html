@@ -1,5 +1,8 @@
 {{ define "main" }}
-<div class="container is-fluid">
+<div class="container is-fluid py-6">
+  <p class="has-text-centered" style="color: #a3a3a3">↓ PORTFOLIO ↓</p>
+</div>
+<div class="container is-fluid pt-6">
 
   <div class="masonry">
     {{ range where .Site.Pages "Type" "trabajos" }}
@@ -10,4 +13,5 @@
     {{ end }}
   </div>
 </div>
+
 {{ end }}
