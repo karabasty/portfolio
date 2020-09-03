@@ -1,15 +1,13 @@
 {{ define "main" }}
+<div class="container is-fluid">
 
-<div class="masonry">
-  {{ range where .Site.Pages "Type" "trabajos" }}
-  <div class="item">
-    <img data-title="{{ .Params.title }}" data-cuerpo="{{ .Params.cuerpo }}"
-      src="https://portfolio-basty.s3.eu-west-2.amazonaws.com{{ .Params.imagen }}"></a>
+  <div class="masonry">
+    {{ range where .Site.Pages "Type" "trabajos" }}
+    <div class="item">
+      <img loading="lazy" data-title="{{ .Params.title }}" data-cuerpo="{{ .Params.cuerpo }}"
+        src="https://portfolio-basty.s3.eu-west-2.amazonaws.com{{ .Params.imagen }}"></a>
+    </div>
+    {{ end }}
   </div>
-  {{ end }}
 </div>
-
-<!-- PUT THIS IN STYLES AND ALL THAT 
-watch?v=NKLwuZIkReg 2:50 -->
-
 {{ end }}
