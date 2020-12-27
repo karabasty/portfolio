@@ -1,9 +1,9 @@
 ---
-title: "Karabasty | Personal Portfolio"
-description: "Cambia esto a una descripcion acorde"
-date: "2018-02-11"
----
+title: Kara Basty | Personal Portfolio
+description: ''
+date: 2020-12-27T18:01:00+00:00
 
+---
 ## Index
 
 iiiEiusmod incididunt sunt consequat laborum adipisicing Lorem cupidatat do nulla elit. Dolore dolore reprehenderit nostrud amet anim nostrud ullamco ea consequat velit. Pariatur in veniam quis in ea est elit laboris eiusmod ea enim.
